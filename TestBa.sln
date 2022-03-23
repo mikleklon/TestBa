@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerBars", "ServerBars\ServerBars.csproj", "{84B4A634-0E60-4C3D-9634-DCD01A62D2E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBars", "AppBars\AppBars.csproj", "{713946C3-FE0C-48A2-AEC9-FB8165E0EABD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84B4A634-0E60-4C3D-9634-DCD01A62D2E8} = {84B4A634-0E60-4C3D-9634-DCD01A62D2E8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84B4A634-0E60-4C3D-9634-DCD01A62D2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B4A634-0E60-4C3D-9634-DCD01A62D2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B4A634-0E60-4C3D-9634-DCD01A62D2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B4A634-0E60-4C3D-9634-DCD01A62D2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713946C3-FE0C-48A2-AEC9-FB8165E0EABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713946C3-FE0C-48A2-AEC9-FB8165E0EABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713946C3-FE0C-48A2-AEC9-FB8165E0EABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713946C3-FE0C-48A2-AEC9-FB8165E0EABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F047AF9-39A7-4FDF-8AB7-7A9E453486DD}
+	EndGlobalSection
+EndGlobal
